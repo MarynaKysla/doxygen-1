@@ -181,7 +181,7 @@ class TranslatorRussian : public Translator
     virtual QCString trRelatedPages()
     /* ?? Вариант перевода "См. также: " более удачный, но не в заголовке,
      как в данном случае. */
-    { return "Описания"; }
+    { return "Описание"; }
 
     /*! This is put above each page as a link to all examples. */
     virtual QCString trExamples()
